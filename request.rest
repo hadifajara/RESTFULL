@@ -1,0 +1,14 @@
+GET http://localhost:3000/products
+
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name" : "3310",
+    "brand" : "nokia",
+    "description" : "Nokia Jadul"
+}
+
+###
+GET http://localhost:3000/products/1
